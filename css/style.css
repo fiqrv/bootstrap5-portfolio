@@ -1,0 +1,98 @@
+.text-small {
+    font-size: 1rem;
+}
+
+.btn-sm{
+    --bs-btn-padding-y: .1rem;
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-font-size: 1rem;
+}
+
+.btn-mini{
+    font-size: .8rem;
+}
+
+.read-more{
+    padding-inline: 1rem;
+    padding-block: 1rem;
+}
+
+:root{
+    --bs-blackbrown: #201E20;
+    --bs-beige: #DDC3A5;
+    --bs-tan: #E0A96D;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bs-blackbrown);
+}
+
+.ff-monoton{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.bg-blackbrown{
+    background-color: var(--bs-blackbrown);
+}
+
+.text-blackbrown{
+    color: var(--bs-blackbrown);
+}
+
+.border-blackbrown{
+    border-width: .1rem;
+    border-color: var(--bs-blackbrown);
+    border-style: solid;
+    padding-block: 3rem;
+}
+
+.bg-beige{
+    background-color: var(--bs-beige);
+}
+
+.text-beige{
+    color: var(--bs-beige);
+}
+
+.bg-tan{
+    background-color: var(--bs-tan);
+}
+
+.text-tan{
+    color: var(--bs-tan);
+}
+
+.header-logo{
+    line-height: 2rem;
+    font-size: 2rem;
+    color: var(--bs-tan);
+}
+
+.logo-mini{
+    line-height: .8rem;
+    font-size: .8rem;
+    color: var(--bs-beige);
+    border-block: solid;
+    border-inline: solid;
+    border-block-width: .5rem;
+    border-inline-width: 1.2rem;
+    border-color: var(--bs-blackbrown);
+    border-radius: .5rem;
+    background-color: var(--bs-blackbrown);
+}
+.social-bar a i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h6{
+    font-size: 1rem;
+    letter-spacing: .1px;
+}
+
+h7{
+    font-size: .8rem;
+    letter-spacing: .1px;
+    font-weight: 300;
+}
